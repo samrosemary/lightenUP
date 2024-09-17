@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weigh in</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="LightenUp.png" width="300px" alt="Your Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="countingcalories.html">Calorie Counter</a></li>
+                <li><a href="daysofprogress.html">Days of Progress</a></li>
+                <li><a href="bodyprogress.html">Progress Photos</a></li>
+                <li><a href="foodphotos.html">Food Photos</a></li>
+                <li><a href="weighin.html">Weigh in!</a></li>
+                <li><a href="weightprogress.html">Weight Progress</a></li>
+               
+            </ul>
+        </nav>
+        </header>
+        <div id="first-words">
+        <h1 id="site-title">What's Your Weight?</h1>
+           
+        </div>
+        
+        <div class="container">
+            <br>
+            <hr class="zigzag-line">
+            <br>
+        <div class="input-group">
+            <input type="number" id="weight-input" placeholder="Enter your weight">
+            <select id="weight-unit">
+            <option value="lbs">lbs</option>
+                <option value="kg">Kg</option>
+                <option value="stones">Stones and pounds</option>
+            </select>
+            
+            <input type="date" id="weighin-date" placeholder="Select Date">
+            <button id="save-weight-btn">Save Weight</button>
+            </div>
+            <br>
+            <hr class="zigzag2-line">
+            <br>
+            <div id="weight-list" class="weight-list">
+            
+            </div>
+            <br>
+            <hr class="zigzag2-line">
+            <br>
+        </div>
+        
+        <script src="weighin.js"></script>
+    </body>
+</html>

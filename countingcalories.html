@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counting calories</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+   <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="LightenUp.png" width="300px" alt="Your Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="countingcalories.html">Calorie Counter</a></li>
+                <li><a href="daysofprogress.html">Days of Progress</a></li>
+                <li><a href="bodyprogress.html">Progress Photos</a></li>
+                <li><a href="foodphotos.html">Food Photos</a></li>
+                <li><a href="weighin.html">Weigh in!</a></li>
+                <li><a href="weightprogress.html">Weight Progress</a></li>
+               
+            </ul>
+        </nav>
+        </header>
+        <div id="first-words">
+        <h1 id="site-title">Calorie Counter</h1>
+           
+        </div>
+        
+   
+        <div class="container">
+        <div class="goal-section">
+        <label for="calorie-goal">Calorie Goal:</label>
+            <input type="number" id="calorie-goal" placeholder="Enter your daily calorie goal">
+            <button id="set-goal-btn">Set Goal</button>
+        </div>
+        <br>
+        <div class="zigzag-line"></div>
+        
+        <br>
+        
+        <div class="goal-display">
+        <h3>Calorie Goal: <span id="goal-display">Not Set</span></h3>
+            <h3>Calories Left: <span id="calories-left">Not Set</span></h3>
+        </div>
+        <br>
+        <div class="zigzag-line"></div>
+        
+        <div class="food-section">
+        <h2>Add Food</h2>
+            <input type="text" id="food-name" Placeholder="Food name and measurements">
+            <input type="number" id="food-calories" placeholder="Calories">
+            <button id="add-food-btn">Add Food</button>
+        </div>
+        <br>
+        <hr class="zigzag2-line">
+        
+        <br>
+        
+        <h2>Food List</h2>
+        <ul id="food-list"></ul>
+        <br>
+        <hr class="zigzag2-line">
+        <br>
+        <div class="summary-section">
+        <h3>Total Calories: <span id="total-calories">0</span></h3>
+            <button id="save-day-btn">Save Day</button>
+        </div>
+        <br>
+        <hr class="zigzag-line">
+        <br>
+        <div class="saved-days-section">
+        <h2>Saved Days</h2>
+            <ul id="saved-days-list"></ul>
+        </div>
+        <br>
+        <hr class="zigzag-line">
+        </div>
+        
+        <script src="caloriecounting.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Days of progress</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+   <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="LightenUp.png" width="300px" alt="Your Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="countingcalories.html">Calorie Counter</a></li>
+                <li><a href="daysofprogress.html">Days of Progress</a></li>
+                <li><a href="bodyprogress.html">Progress Photos</a></li>
+                <li><a href="foodphotos.html">Food Photos</a></li>
+                <li><a href="weighin.html">Weigh in!</a></li>
+                <li><a href="weightprogress.html">Weight Progress</a></li>
+               
+            </ul>
+        </nav>
+        </header>
+        <div id="first-words">
+        <h1 id="site-title">Days of progress</h1>
+           
+        </div>
+        
+        <div class="container">
+        <h3>Click on the box to mark a day as complete</h3>
+            <br>
+            <hr class="zigzag2-line">
+            <br>
+            <label for="box-count"><b>Select number of days to track:</b></label>
+            <input type="number" id="box-count" value="30" min="1" max="365">
+            <button onclick="generateGrid()">Update Tracker</button>
+            <br>
+            <hr class="zigzag2-line">
+            <br>
+             <div class="color-picker">
+            <label><b>Select a color for squares:</b></label>
+            <input type="color" id="square-color" value="#008080">
+            <label><b>Select a color for ticks:</b></label>
+            <input type="color" id="tick-color" value="#FF6F61">
+        </div>
+            <div id="tracker-grid">
+            
+            </div>
+            <br>
+            <hr class="zigzag-line">
+            <br>
+        </div>
+        
+        <script src="daysofprogress.js"></script>
+    </body>
+</html>

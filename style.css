@@ -1,0 +1,563 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:cursive, sans-serif;
+    margin:0;
+}
+
+/*Monthly theme for website*/
+.freshstart{
+    background:url('january.png');
+}
+
+.freshstart nav{
+    background-color:#97BCC7;
+}
+
+
+
+.love{
+    background:url('febuary.png');
+}
+
+.love nav{
+    background-color:#ff9f9f;
+}
+
+.spring{
+    background-color:url('march.png')
+}
+
+.spring nav{
+    background-color:#9DCD5A;
+}
+
+.rain{
+    background-color:url('april.png');
+}
+
+.rain nav{
+    background-color:#759AF3;
+}
+
+.floral{
+    background:url('may.png');
+}
+
+.floral nav{
+    background:linear-gradient(90deg, #3DCA86, #E26197);
+}
+.summer{
+    background:url('june.png');
+}
+
+.summer nav{
+    background-color:#0BA5DE;
+}
+
+.freedom{
+    background:url('july.png');
+}
+
+.freedom nav{
+    background:linear-gradient(90deg, #DF1C1C, white, #1A51F3);
+}
+
+.adventure{
+    background:url('august.png');
+}
+
+.adventure nav{
+    background-color:#FA8976;
+}
+.autumn{
+    background:url('autumn3.png');
+    
+}
+
+.autumn nav{
+    background-color:#CAB368;
+}
+
+
+
+.halloween{
+    background:url('october.png');
+}
+
+.halloween nav{
+    background-color:#C26612;
+}
+
+.fireworks{
+    background:url('november.png');
+}
+
+.fireworks nav{
+    background-color:#311B63;
+}
+
+.christmas{
+    background:url('december.png');
+}
+
+.christmas nav{
+    background-color:#C70B3D;
+}
+
+header{
+    background-color:white;
+    color:black;
+}
+nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:auto;
+    padding:0;
+    border-bottom:20px solid black;
+    background-color:darkgoldenrod;
+}
+
+.logo img{
+    width:300px;
+    height:auto;
+    border-radius:20px;
+}
+
+.nav-links{
+    list-style:none;
+    padding:0;
+    margin:auto;
+}
+
+.nav-links a{
+    color:black;
+    text-decoration:none;
+    font-size:18px;
+    display:block;
+    width:300px;
+    text-align:center;
+    background-color:darkgrey;
+    border-bottom-left-radius:60px;
+    border-top-right-radius:60px;
+}
+
+.nav-links a:hover{
+    background-color:grey;
+    border-bottom-left-radius:60px;
+    border-top-right-radius:60px;
+    color:white;
+}
+ /*home page card design*/
+
+.container1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    position:relative;
+    width:320px;
+    height:450px;
+    margin-bottom:20px;
+    margin-top:20px;
+    background:silver;
+    border-radius:20px;
+    border-bottom-right-radius:160px;
+    border-bottom-left-radius:160px;
+    box-shadow:0 15px 0;
+    overflow:hidden;
+    border:2px solid black;
+}
+.card:nth-child(1):hover{
+    background:linear-gradient(to bottom, #F5DBA8, white, #F5DBA8);
+    
+}
+.card:nth-child(2):hover{
+    background:linear-gradient(to bottom, #008000, white, #008000);
+    
+}
+.card:nth-child(3):hover{
+    background:linear-gradient(to bottom, #F5DBA8, white, #F5DBA8);
+    
+}
+.card:nth-child(4):hover{
+    background:linear-gradient(to bottom, #008000, white, #008000);
+    
+}
+.card:nth-child(5):hover{
+    background:linear-gradient(to bottom, #F5DBA8, white, #F5DBA8);
+    
+}
+.card:nth-child(6):hover{
+    background:linear-gradient(to bottom, #008000, white, #008000);
+    
+}
+
+.content h1{
+    text-align:center;
+    background-color:black;
+    color:white;
+}
+.content p{
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+    font-weight:bolder;
+}
+
+/*title and changing icons and message just after nav*/
+
+#first-words{
+    background-color:white;
+    color:black;
+    text-align:center;
+    border-bottom:20px solid black;
+}
+
+#first-words #site-title{
+    background-color:black;
+    color:white;
+    padding-bottom:20px;
+}
+
+.conts{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#image-left{
+    width:100px;
+    height:100px;
+}
+
+#image-right{
+    width:100px;
+    height:100px;
+}
+
+.conts h2{
+    margin:20px;
+}
+
+/*Calorie counting css*/
+
+.container{
+    max-width:800px;
+    margin:30px auto;
+    background:linear-gradient(90deg, black, white);
+    padding:20px;
+    border-radius:20px;
+    box-shadow:14px 14px 14px black;
+    text-align:center;
+    
+}
+
+.zigzag-line {
+  width: 100%;
+  height: 10px; /* Adjust the height as needed */
+  background: linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+              linear-gradient(225deg, green 25%, transparent 25%) -50px 0,
+              linear-gradient(315deg, yellow 25%, transparent 25%),
+              linear-gradient(45deg, yellow 25%, transparent 25%);
+  background-size: 20px 20px; /* Adjust the size as needed */
+  background-repeat: repeat-x;
+    border:none;
+}
+
+
+.zigzag2-line{
+    width:100%;
+    height:10px;
+    background:linear-gradient(135deg, black, green, white, green, black);
+    border:none;
+    border-radius:10px;
+    
+}
+
+.zigzag2-line:hover{
+    width:100%;
+    height:10px;
+    background:linear-gradient(135deg, white, black, green, black, white);
+    border:none;
+    border-radius:10px;
+    
+}
+h2, h3{
+    text-align:center;
+}
+.title{
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:40px;
+    max-width:800px;
+    background-color:beige;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:14px 14px 14px;
+}
+button{
+    padding:5px;
+    background-color:black;
+    color:white;
+    font-weight:bolder;
+    border-radius:20px;
+    margin:5px auto;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:50%;
+}
+
+input[type="text"], input[type="number"]{
+    width: calc(100% - 22px);
+    padding:10px;
+    margin:10px 0;
+    border:5px solid darkgoldenrod;
+    border-radius:20px;
+}
+
+
+#food-list{
+    background-color:white;
+  border-radius:20px;
+    
+}
+
+#saved-days-list{
+    background-color:white;
+    border-radius:20px;
+}
+.saved-days-section{
+    margin-top:30px;
+}
+
+.saved-days-section ul li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 10px;
+    
+}
+
+.saved-days-section .delete-day-btn{
+    background-color:black;
+    color:white;
+    border:none;
+    padding:5px auto; 
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.saved-days-section .delete-day-btn:hover{
+    background-color:black;
+    color:white;
+}
+
+/*days of progress*/
+
+#tracker-grid{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:10px;
+    margin-top:20px;
+    
+}
+
+.day-box{
+    width:100%;
+    padding-top:100%;
+    position:relative;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.5em;
+    cursor:pointer;
+    border: 2px solid grey;
+}
+
+.day-box.completed{
+    background-color:black;
+    color:white;
+}
+
+.day-box.completed span{
+    font-size:2em;
+}
+
+.day-box span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/*image galllery*/
+
+#image-gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap:20px;
+    padding:20px;
+    
+    border-radius:20px;
+    margin-top:20px;
+}
+
+.image-container{
+    position:relative;
+    background-color:white;
+    border-radius:20px;
+    box-shadow:14px 14px 14px green;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:15px;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: translateY(-15px);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.image-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 5px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="file"]{
+    display:block;
+    margin:20px auto;
+    font-size:16px;
+    font-weight:bolder;
+    
+}
+
+#food-image-gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap:20px;
+    padding:20px;
+    background-color:white;
+    border-radius:20px;
+}
+
+#food-image-gallery .image-container{
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 14px 14px 14px green;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+/*weigh in*/
+
+.weight-entry{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    padding:15px;
+    border-radius:20px;
+    margin-bottom:15px;
+    box-shadow:14px 14px 14px black;
+    transition:transform 0.2s ease;
+}
+
+.weight-entry:hover{
+    transform:translateY(-15px)
+}
+
+.weight-entry h3{
+    margin:0;
+    color:darkgoldenrod;
+}
+
+.weight-entry p{
+    margin:0;
+    color:darkgreen;
+}
+        
+    
+
+.weight-list{
+    margin-top:20px;
+}
+
+/*weight progress*/
+.tracker-container{
+    max-width:800px;
+    margin:0 auto;
+    background:linear-gradient(90deg, black, white);
+    padding:20px;
+    border-radius:20px;
+    box-shadow:14px 14px 14px;
+    text-align:center;
+}
+
+.info{
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap:10px;
+    margin-top:20px;
+}
+
+h2{
+    margin-bottom:20px;
+    
+}
+
+.star-grid{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:10px;
+}
+
+.star{
+   font-size: 100px;
+    cursor:pointer;
+    transition: color 0.3s
+    
+}
+
+.star.filled{
+    color:darkgoldenrod;
+}
+
+
+
+

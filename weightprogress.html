@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weight progress</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="LightenUp.png" width="300px" alt="Your Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="countingcalories.html">Calorie Counter</a></li>
+                <li><a href="daysofprogress.html">Days of Progress</a></li>
+                <li><a href="bodyprogress.html">Progress Photos</a></li>
+                <li><a href="foodphotos.html">Food Photos</a></li>
+                <li><a href="weighin.html">Weigh in!</a></li>
+                <li><a href="weightprogress.html">Weight Progress</a></li>
+               
+            </ul>
+        </nav>
+        </header>
+        <div id="first-words">
+        <h1 id="site-title">Weight Progress!</h1>
+           
+        </div>
+        
+        <div class="tracker-container">
+       <h2>I'm going to lose 
+            <input type="number" id="goal-weight" placeholder="X"> 
+            <select id="weight-unit">
+                <option value="lbs">Pounds (lbs)</option>
+                <option value="kg">Kilograms (kg)</option>
+           </select>!</h2>
+            <button id="submit-goal">Submit Goal</button>
+    <br>
+            <hr class="zigzag-line">
+            <br>
+        <div class="star-grid">
+            <!--stars for weight loss tracking -->
+            
+            </div>
+            <br>
+            <hr class="zigzag2-line">
+            <br>
+            
+            <div class="button-container">
+            <button id="reset-progress">RESET</button>
+            </div>
+            <br>
+            <hr class="zigzag2-line">
+            <br>
+        </div>
+        <script src="weightprogress.js"></script>
+    </body>
+</html>
